@@ -28,9 +28,14 @@ h1 {
   padding: 1rem 0;
 }
 
-.navlink {
+.nav-link {
   color: #777777;
+  line-height: 1;
+  padding: 0 1rem;
 }
 
-.header-nav {
+.nav-item:nth-child(2) .nav-link {
+  border-left: solid 1px;
+  border-right: solid 1px;
+  border-color: #cccccc;
 }
