@@ -35,6 +35,14 @@ h2 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 24px;
+  color: #4aaaa5;
+  border-bottom: 3px solid #dddddd;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
 .nav-link {
   color: #777777;
   line-height: 1;
@@ -51,9 +59,17 @@ h2 {
   border: 1px solid #dddddd;
 }
 
+.main-content {
+  padding-top: 1.5rem;
+}
+
 .my-picture {
   max-width: 100%;
   margin: 0 auto;
+}
+
+.about-me-text {
+  line-height: 1.75rem;
 }
 
 @media (min-width: 768px) {
