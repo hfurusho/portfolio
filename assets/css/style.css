@@ -5,11 +5,18 @@
   margin: 0px;
   padding: 0px;
   color: #777777;
+  /* outline: 1px solid rgba(255, 0, 0, 0.5); */
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }
 
 body {
   background-image: url("../images/background-ripples.png");
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  margin-bottom: 60px;
 }
 
 .header {
@@ -57,10 +64,25 @@ h2 {
 
 .main {
   border: 1px solid #dddddd;
+  margin-bottom: 85px;
 }
 
 .main-content {
   padding-top: 1.5rem;
+}
+
+.footer {
+  background-color: #666666;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  border-top: 8px solid #4aaaa5;
+}
+
+.footer p {
+  color: #dddddd;
+  font-size: 12px;
 }
 
 .my-picture {
@@ -70,6 +92,10 @@ h2 {
 
 .about-me-text {
   line-height: 1.75rem;
+}
+
+.about-me-text p:last-child {
+  margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
