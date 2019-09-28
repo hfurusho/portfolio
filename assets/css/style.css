@@ -115,3 +115,25 @@ h2 {
     max-width: 25%;
   }
 }
+
+/* Styling specifically for portfolio page */
+
+.portfolio-card {
+  position: relative;
+  width: fit-content;
+  margin-bottom: 1.5rem;
+}
+
+.project-name {
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+  background-color: #4aaaa5;
+  padding: 10px 0;
+  color: #dddddd;
+  z-index: 1;
+}
+
+/* Styling specifically for contact page */
