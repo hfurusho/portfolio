@@ -123,8 +123,12 @@ h2 {
 
 .portfolio-card {
   position: relative;
-  width: fit-content;
+  width: 100%;
   margin-bottom: 1.5rem;
+}
+
+.portfolio-card img {
+  width: 100%;
 }
 
 .project-name {
