@@ -108,6 +108,9 @@ h2 {
   .my-picture {
     max-width: 33%;
   }
+  .main.container {
+    max-width: 960px;
+  }
 }
 
 @media (min-width: 1200px) {
