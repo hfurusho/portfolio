@@ -102,6 +102,9 @@ h2 {
   .my-picture {
     max-width: 50%;
   }
+  h1 {
+    max-width: 260px;
+  }
 }
 
 @media (min-width: 992px) {
