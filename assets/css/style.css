@@ -137,3 +137,14 @@ h2 {
 }
 
 /* Styling specifically for contact page */
+
+.submit-button {
+  padding: 8px 22px;
+  background-color: #4aaaa5;
+  color: #fff;
+  border-width: 0px;
+}
+
+.submit-button:hover {
+  opacity: 0.9;
+}

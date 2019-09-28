@@ -47,7 +47,38 @@
       </div>
       <div class="row main-content">
         <div class="col">
-          <!-- TODO -->
+          <form>
+            <div class="form-group">
+              <label for="contactee-name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="contactee-name"
+                placeholder="John Smith"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="contactee-email">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="contactee-email"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="contactee-message">Message</label>
+              <textarea
+                class="form-control"
+                id="contactee-message"
+                rows="12"
+                required
+              ></textarea>
+            </div>
+            <input type="submit" value="Submit" class="submit-button" />
+          </form>
         </div>
       </div>
     </div>
