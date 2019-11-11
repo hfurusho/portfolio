@@ -129,6 +129,12 @@ h2 {
   position: relative;
   width: 100%;
   margin-bottom: 1.5rem;
+  transition: transform 100ms ease-in-out;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 10px 5px 5px black;
 }
 
 .portfolio-card img {
