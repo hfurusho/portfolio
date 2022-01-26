@@ -1,3 +1,3 @@
-# hw02-bootstrap-responsive-portfolio
+# [https://hfurusho.github.io/portfolio/](Portfolio)
 
 Welcome to my portfolio page, but now with responsiveness! This was my first exploration into using bootstrap. I refactored all my previous code with an emphasis in strictly using bootstrap classes. At first I didn't like using this framework because it seemed more complicated than just using my own styling and the html looks more confusing due to using a lot more divs. After digging into the official documentation and getting familiar with all the different bootstrap components, utilities, and how the grid structure works, bootstrap grew on me. I found myself re-thinking how a page is structured, especially in different screen sizes. There is still so much of bootstrap that I've yet to use or commit to memory. While I do think that this framework is a great tool, and the people who made it are geniuses, I think it's valuable to learn when and where to use it properly.
